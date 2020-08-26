@@ -1,0 +1,43 @@
+Intro to OOP
+	Classes
+
+	A class is a custom datatype
+
+3 things you define abt a class:
+
+1. State: charateristics "data" (Also called encapsulation or data hiding)
+2. Behavior: methods
+3. How its born: constructors
+
+Public vs. Private
+
+	Private can only be access from within that class
+
+	Public can be access from anywhere
+	
+	
+Making a Circle
+
+State:
+	1) center
+		x cord.
+		y cord.
+	2) radius
+	
+behavior:
+	1) get the circumference
+	2) get the area
+	3) describe the circle
+	4) get the radius
+	4a) get the diameter
+	5) get the center
+	6) test whether a given point is in or on the outside of the circle or on the border
+	7) set the radius to a given value
+	8) move the circle by a given change x or change y
+	9) set the location of the center to a new (x,y)
+	
+constucting a circle:
+	a) default: unit circle centered at (0,0)
+	b) custom constuction: specifiy a radius and a center
+	c)
+

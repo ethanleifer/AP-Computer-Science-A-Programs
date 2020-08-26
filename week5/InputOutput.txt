@@ -1,0 +1,17 @@
+Inputs:
+
+  python:
+    n = int(input("Pls enter a number:"))
+
+  java:
+    1) import the Scanner class
+    2) create an instance of a scanner object
+    3)  a) Prompt user for input (print statement)
+        b) Use appropriate method from Scanner to get the right type of input.
+
+    Scanner Object:
+
+    .next() : accepts input up to first whitespace
+    .nextLine() : accepts input up to a first return
+    .nextInt() : returns a whole #
+    .nextDouble() : returns double

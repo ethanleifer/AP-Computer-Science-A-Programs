@@ -1,0 +1,36 @@
+Recursion:
+
+Factorial:
+
+	phi (w) = {w *phi(w-1) w>0}  = recursive case (The recursive case has to drive you towards a base case)
+			  {1 w = 0} = base case
+	phi(5) = 120
+	5*phi(4)
+		4*phi(3)
+			3*phi(2)
+				2*phi(1)
+					1*phi(0) DONE
+						1
+	5*4*3*2*1 = 120
+
+f(x,y) {f(x-y,(y-1)+2 x>y}
+	   { x+y	otherwise}
+
+	f(12,6) = 9
+		f(6,5)+2 --> 5+2 = 9
+		f(1,4)+2 --> 5 +2 = 7
+	
+	
+	
+phi(a,b) {b , a%b = 0}
+		 {phi(b,a%b) , otherwise}
+	
+	phi(24,16) = 8
+		(24%16) =  
+			(24,8)
+				(24,8) = 0
+						
+	phi(22,15) = 1
+		22,22%15 = 7
+		22%7 = 1
+		22%1 = 0 

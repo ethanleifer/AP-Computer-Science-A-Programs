@@ -1,0 +1,40 @@
+Declaring a variables / Using Datatypes
+
+n = 2 in python
+
+in java:
+
+int n;
+n = 2;
+
+or
+
+int n = 2;
+
+Declaration:
+  dataType variableName (optional initialization statement);
+
+Infinity many Datatypes
+
+Primitive Datatypes: (** are important ones)
+  Numeric Primitives:
+    Whole #
+      byte: 2 - bit whole #'s
+      short: 16 - bit whole #'s
+      **int: 32 - bit whole #'s**
+      long: 64 - bit whole #'s
+
+    Decimal #
+      **double: double - precision floating - point #'s**
+      float: single - precision
+
+  **boolean: true or false**
+  char: single characters
+
+Capital dataTypes are classes
+Primitive dataTypes are lowercase
+
+Restriction on int is [-2^31,2^31-1]
+Restriction on long is [-2^63,2^63-1]
+
+Round off error is unavoidable

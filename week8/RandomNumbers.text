@@ -1,0 +1,18 @@
+random numbers
+Math.Random ALWAYS GIVES A DOUBLE
+double x = Math.random generates a number between [0,1)
+2+ Math.random() generates a number between [2,3)
+100*Math.random() generates a number between [0,100)
+-2+9*Math.random() generates a number between [-2,7)
+
+To generates ints between [0,100) --> (int)(100*Math.random())
+
+OTHER WAY
+
+import java.util.Random;
+
+main...
+
+Random randGen = new Random();
+double x = randGen.nextDouble(); //[0,1)
+int n = randGen.nextInt(126); //[0,126) INTS same for nextDouble

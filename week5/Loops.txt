@@ -1,0 +1,30 @@
+LOOPS:
+
+4 types:
+  1. while - loop
+
+    int n = 1;
+    while(n < 11)
+    {
+    SOPln(n)x
+    n=n+1
+    }
+
+  2. do - while - loop **
+
+  int n = 1;
+  do
+  {
+  SOP(n);
+  n++;
+  } while(n < 11);
+  3. for - loop
+
+  for (initialization statement; stoping criteria or conditional; increment rule)
+  {
+  }
+  initialization statement - create a loop variable and give it a value
+  stopping criteria - boolean expression
+  increment rule - typical: n++
+
+  4. for - each - loop (enhanced for - loop)

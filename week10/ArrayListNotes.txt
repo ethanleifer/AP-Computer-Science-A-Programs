@@ -1,0 +1,35 @@
+Ethan Leifer
+
+ArrayList Notes
+
+import java.util.ArrayList;
+
+Array List<Sring> aList1 = new ArrayList<String>();
+
+
+methods of ArrayList class
+boolean 	.add(String obj)
+		Ex: aList1.add("Ethan");
+		Ex: aList1.add("Polina");
+
+int 		.size()
+		Ex: for(int n = 0; n< aList1.sixe(); n++)
+			{SOP(...);}
+			
+String 		.get(int index)
+		Ex: SOP(aList1.get(0);
+			SOP(aList1.get(aList.size(-1));
+			
+String 		.set(int index, String obj)
+		Ex: aList1.set(0,"Parth);
+		
+String substring same as array
+
+void 		.add(int index, String obj)
+		Ex: aList.add(0,"Neelan");
+		
+String		.remove(int index)
+		Ex: aList1.remove(1);
+
+
+YOU CANT PUT PRIMITIES IN ARRAY LISTS

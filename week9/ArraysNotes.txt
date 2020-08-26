@@ -1,0 +1,29 @@
+Standard Java Array
+	"static"
+	built into java.lang
+	0 - indexed
+	only one datatype
+				
+	syntac:
+
+	String[]	names = new String[15];
+	String[] names = {"Polina","Greg",...};
+	for primitives it is 0 or false
+	for all Class based datatypes its null
+	
+	if a new student is in our class
+	String temp = new String[names.length + 1];
+	
+	
+	names = temp;
+ArrayList
+	"dynamic"
+	import java.util.ArrayList; // only one datatype
+	
+	ArrayList<String> names = new ArrayList<String>();
+	names.add("Ethan");
+	names.add("Mena");
+	names.add("1,Rohon);
+	names.add(0,"Emily");
+	{"Emily","Ethan","Rohan","Mena"} = ArrayList at the end of code 
+	.size() gets the size

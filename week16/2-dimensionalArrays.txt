@@ -1,0 +1,29 @@
+2-dimensional arrays:
+
+	square arrays: (3x3) 3 by 3 amt of rows = amt of columns Examples: tic tac toe
+	rectangle arrays: (3x4) 3 by 4 amt of rows != amt of colums Examples: Seating arrangements on a plan
+	ragged arrays: number of colums changes on each row (dont need to know)
+
+to create a 2-dimnesional array
+	int[][] mat = new int[3][4]; intialized to 0
+
+	to specify a specific element: mat[1][2] = 7; would make that element a 7
+
+	double[][] dmat = new double[2][3]; a 2-dim. double with 2 rows and 3 colums. Intialized to 0.0
+
+	int[][] mat1 = {{1,2,3},{4,5,6},{7,8,9}}
+
+to go through each element: GENERAL WORKS FOR EVERY 2 - Dimensional array
+
+method 1 (regular for loops):
+	for (int row = 0; row < mat1.length; row++) // to find the amt of rows u can use nameofarray.length
+	{
+		for(int col = 0; col < mat1[row].length; col++) // to find the amt of colums u can use nameofarray[row#].length
+		{	// whatever you want to do for each element }
+	}
+method 2 (enhanced for loops):
+	for(int[] row: mat1)
+	{
+		for (int i: row)
+		{	//do something }
+	}
